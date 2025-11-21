@@ -1,0 +1,44 @@
+/* General body styling */
+body {
+    margin: 0;
+    padding: 0;
+    height: 100vh;
+    display: flex;
+    flex-direction: column;  /* stack elements vertically */
+    justify-content: center;
+    align-items: center;
+    font-family: Arial, sans-serif;
+    background-color: #f8f9fa; /* light background */
+}
+
+/* Page title */
+h1 {
+    margin-bottom: 40px;
+    font-size: 28px;
+    font-weight: bold;
+    text-align: center;
+}
+
+/* Buttons */
+button {
+    background-color: #0d6efd;  /* Bootstrap blue */
+    color: white;
+    font-size: 20px;
+    padding: 15px 40px;
+    border: none;
+    border-radius: 8px;
+    cursor: pointer;
+    transition: 0.3s;
+    width: 200px;   /* fixed width for uniform size */
+}
+
+/* Hover effect */
+button:hover {
+    background-color: #0b5ed7;
+}
+
+/* Spacing between buttons */
+a {
+    text-decoration: none;  /* remove underline */
+    margin: 10px 0;
+}
